@@ -88,3 +88,4 @@ clearDataBtn?.addEventListener('click',()=>{if(!confirm('Reset contacts and call
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();window.phone3InstallPrompt=e});
 renderAll();updateNumber();show('home');setTimeout(()=>updatePill($('.nav-btn.active'),false),80);
 });
+  
